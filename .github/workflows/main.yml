@@ -1,0 +1,16 @@
+name: "Compliance"
+
+on:
+  pull_request_target:
+    types:
+      - opened
+      - reopened
+      - edited
+      - synchronize
+
+permissions:
+  pull-requests: write
+
+jobs:
+  compliance:
+    uses: testing-204/git-bot-204/.github/workflows/test_wf.yaml@master
