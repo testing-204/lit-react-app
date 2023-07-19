@@ -1,6 +1,6 @@
 name: Check push workflow
 on:
-  push:
+  workflow_dispatch:
 
 jobs:
   main:
