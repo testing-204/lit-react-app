@@ -10,3 +10,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
+  call-worflow-2:
+    uses: testing-204/.github/.github/workflows/main.yml@main
+    
