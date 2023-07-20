@@ -5,6 +5,7 @@ on:
 
 jobs:
   main:
+    name: job-1
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
