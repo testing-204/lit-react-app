@@ -5,7 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import { FwAvatarC as FwAvatar, FwAvatarGroupC as FwAvatarGroup, TestView } from "./views/test_component";
 
 let users = [
-  { name: "Richard", company: "PiedPiper" },
+  { name: "Surya", company: "PiedPiper" },
   { name: "Dinesh", company: "PiedPiper" },
   { name: "Hemant", company: "PiedPiper" },
 ];
