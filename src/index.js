@@ -21,6 +21,7 @@ root.render(
       itemClicked = { (e) => console.log("Clicked")}
     />
     <TestView itemClicked={() => console.log("Clicked") }/>
+    <test-view/>
   </React.StrictMode>
 );
 

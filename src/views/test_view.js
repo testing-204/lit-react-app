@@ -8,9 +8,9 @@ let users = [
 
 export class TestView extends LitElement {
   static properties = {
-    items: {},
-    nameAttribute: {},
-    secondaryAttribute: {},
+    items: Array,
+    nameAttribute: String,
+    secondaryAttribute: String,
   };
 
   constructor() {
