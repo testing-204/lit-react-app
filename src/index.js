@@ -4,10 +4,10 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { FwAvatarC as FwAvatar, FwAvatarGroupC as FwAvatarGroup, TestView } from "./views/test_component";
 
-let users = [
+let uesrs = [
   { name: "Dinesh", company: "PiedPiper" },
   { name: "Dinesh", company: "PiedPiper" },
-  { name: "Hemant", company: "PiedPiper" },
+  { name: "Dinesh", company: "PiedPiper" },
 ];
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -15,7 +15,7 @@ root.render(
   <React.StrictMode>
     <FwAvatar type="initials" name="Hemant Lakhotia" />
     <FwAvatarGroup
-      items={users}
+      items={uesrs}
       nameAttribute={"name"}
       secondaryAtrribute={"company"}
       itemClicked = { (e) => console.log("Clicked")}
